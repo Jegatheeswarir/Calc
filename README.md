@@ -27,6 +27,7 @@ Publish the website in the given URL.
 ## PROGRAM :
 ```
 index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,14 +55,22 @@ index.html
     <button onclick="appendToDisplay('9')">9</button>
     <button onclick="appendToDisplay('*')">*</button>
     <button onclick="appendToDisplay('0')">0</button>
-    <button onclick="clearDisplay()">C</button>
+    <button onclick="appendToDisplay('%')">%</button>
+    <button onclick="appendToDisplay('^')">^</button>
+    <button onclick="appendToDisplay('sin')">sin</button>
+    <button onclick="appendToDisplay('log')">log</button>
     <button onclick="calculate()">=</button>
     <button onclick="appendToDisplay('/')">/</button>
+    <button onclick="clearDisplay()">C</button>
   </div>
 </div>
 <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
 
 stylee.css
 body {
@@ -139,7 +148,7 @@ function calculate() {
 ```
 ## OUTPUT:
 
-![OUTPUT](<Screenshot 2023-12-21 101618.png>)
-![OUTPUT](<Screenshot 2023-12-21 101630.png>)
+![output](<Screenshot 2023-12-22 135510.png>)
+![output](<Screenshot 2023-12-22 135520.png>)
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
